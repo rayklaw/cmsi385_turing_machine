@@ -1,2 +1,2 @@
 # cmsi385_turing_machine
-Turing Machine
+Turing Machine coded in Java
