@@ -42,7 +42,6 @@ class Tape {
     }
 }
 
-
 class TuringMachine {
     constructor(nodeArray, start, blank, string) {
         this.nodes = nodeArray;

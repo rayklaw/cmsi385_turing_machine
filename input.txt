@@ -16,3 +16,7 @@ q2:x->x,R,q0
 q3:y->y,R,q3
 q3:B->B,R,q4
 
+f jcnk j avfad 
+q1 -> asiucni
+q3 R dasd ia
+
