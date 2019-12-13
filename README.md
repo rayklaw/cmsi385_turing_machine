@@ -2,7 +2,8 @@
 This repository contains a Turing Machine Simulator coded in Javascript. This program is to be run in the console and accepts a `.txt file` to `stdin` and a `string` as a `console argument`. It makes use of the Node runtime enviroment to read lines from the text file. 
 
 ## To Run in the Console:  
-``` node TuringMachine.js {STRING TO BE PARSED} < {TEXT FILE DESCRIPTION OF TURING MACHINE} ``` . 
+``` node TuringMachine.js {STRING TO BE PARSED} < {TEXT FILE DESCRIPTION OF TURING MACHINE} ```  
+
 Example:  
 ``` node TuringMachine.js 000111 < input.txt ```
 
