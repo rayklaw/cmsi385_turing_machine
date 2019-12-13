@@ -4,8 +4,7 @@ This repository contains a Turing Machine Simulator coded in Javascript. This pr
 ### To Run in the Console:
 ``` node TuringMachine.js {STRING TO BE PARSED} < {TEXT FILE DESCRIPTION OF TURING MACHINE} ```
 
-Example:
-
+Example:  
 ``` node TuringMachine.js 000111 < input.txt ```
 
 ### Text File Description of Turing Machine
@@ -18,23 +17,15 @@ q0:a->b,R,q1
 q1:a->c,L,q2
 q0:b->b,R,q0
 ```
-The first line provides a description of a Turing Machine and requires a START, ACCEPT, and BLANK. 
-
-START denotes the starting Node of the Turing Machine. 
-
-ACCEPT denotes the accepted Nodes of the Turing Machine.
-
-BLANK denotes the blank symbol for the Tape of the Turing Machine.
+The first line provides a description of a Turing Machine and requires a START, ACCEPT, and BLANK.   
+START denotes the starting Node of the Turing Machine.   
+ACCEPT denotes the accepted Nodes of the Turing Machine.   
+BLANK denotes the blank symbol for the Tape of the Turing Machine.  
 
 ``` q0:a->b,R,q1 ```
-The following lines provides a description for each Node in the Turing Machine. 
-
-q0 is the name of the Node. 
-
-a is the symbol to be read from the Tape. 
-
-b is the symbol to be written to the Tape.
-
-R or L are the directions to scroll the Tape.
-
-q1 is the Node that this transition moves to. 
+The following lines provides a description for each Node in the Turing Machine.   
+q0 is the name of the Node.   
+a is the symbol to be read from the Tape.   
+b is the symbol to be written to the Tape.  
+R or L are the directions to scroll the Tape.  
+q1 is the Node that this transition moves to.   
