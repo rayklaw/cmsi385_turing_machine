@@ -9,7 +9,7 @@ Example:
 
 ## Text File Description of Turing Machine
 The description of a Turing Machine must be in the following format to be guarenteed to work.  
-*The current input.txt file is a description of a Turing Machine that accepts L={0<sup>n</sup> 1<sup>n</sup>}, the language where the number of 0's and 1's are equal*
+**The current input.txt file is a description of a Turing Machine that accepts L={0<sup>n</sup> 1<sup>n</sup>}, the language where the number of 0's and 1's are equal**
 ```
 START=q0;ACCEPT=q2,q1;BLANK=B
 
